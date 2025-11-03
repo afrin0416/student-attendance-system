@@ -1,15 +1,12 @@
 <?php
 $servername = "localhost";
-$username = "root";  // XAMPP default
-$password = "";      // XAMPP default empty
+$username = "root";
+$password = "";
 $dbname = "attendance_db";
 
-// Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-// echo "Database connected successfully!";
 ?>
