@@ -165,7 +165,7 @@ $recent_classes = $conn->query($sql_recent_classes);
                 <div class="flex items-center justify-between">
                     <div>
                         <p class="text-sm font-medium text-slate-600 mb-1">Current Semester</p>
-                        <p class="text-xl font-bold text-slate-900">Spring 2024</p>
+                        <p class="text-xl font-bold text-slate-900">Spring 2025</p>
                     </div>
                     <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
                         <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
